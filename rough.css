@@ -1,0 +1,93 @@
+.centered{
+
+    font-family: 'Courier New', Courier, monospace;
+    display: grid;
+    place-content: center;
+}
+body{
+    background-color: rgb(20, 74, 105);
+    color: white;
+}
+header{
+    font-weight: bold;
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 30px;
+    /* padding-left: 50px;   */
+}
+.heading{
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 23px;
+    margin-top: 15px;
+    padding-left: 20px;
+}
+
+.element {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+    /* border: 1px black solid;
+    border-radius: 5px; */
+    margin-left: 50px;
+    margin-top: 5px;
+    padding: 20px;
+} 
+.rock, .paper, .scissor{
+    font-size: 85px;
+}
+button{
+    margin-top: 8px;
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    height: 48px;
+    width: 80px;
+}
+.user{
+    display: inline-block;
+    /* padding: 1rem 1rem; */
+    vertical-align: middle;
+    /* border: 2px black solid; */
+    width: 500px;
+    height: 300px;
+    margin-left: 50px;
+    margin-top: 40px;
+}
+.head{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 30px;
+    padding-left: 180px;
+}
+.ansBtn{
+    color:white;
+    background-color: black;
+    border-radius: 5px;
+    height: 48px;
+    width: 300px;
+    font-size: 16px;
+}
+.ansEmoji{
+    font-size: 85px;
+    padding-left: 100px;
+}
+.score{
+    display: inline-block;
+    width: 100px;
+    height: 50px;
+    /* border: 1px black solid;  */
+    border-radius: 5px; 
+    margin-left: 250px;
+    margin-top: 10px;
+    padding: 20px;
+    font-size: 25px;
+    font-family: monospace;
+}
+.numbers{
+    margin-top: 15px;
+    /* height: 2px; */
+    width: 10px;
+    border: 1px black solid;
+    border-radius: 10px;
+    padding: 20px;
+    color: white;
+    background-color: black;
+}

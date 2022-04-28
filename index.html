@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="rough.css">
+    <link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Sofia">
+    <title>R P S</title>
+</head>
+<body>
+    <div class="centered">
+        <div class="heading" style="font-size: 30px;">Rock Paper and Scissor</div>
+    </div>
+    
+    <div class="user">
+        <p class="head">Let's Play</p>
+        <div class="element">
+            <div class="rock">&#9994;</div>
+            <button id="btn" onclick="storeVar(this)" value="rock">Rock</button>
+        </div>
+        <div class="element">
+            <div class="paper">&#9995;</div>
+            <button id="btn" onclick="storeVar(this)" value="paper">Paper</button>
+        </div>
+        <div class="element">
+            <div class="scissor">&#9996;</div>
+            <button id="btn" onclick="storeVar(this)" value="scissor">Scissor</button>
+        </div>
+    </div><div class="user">
+        <p class="head" style="padding-left: 180px;">Result</p>
+        <div class="element" id="element">
+
+        </div>
+    </div>
+    <p class="centered" style="font-size:25px;">Score</p>
+    <div class="score">
+        Player
+        <div class="numbers" id="userScore">0</div>
+    </div>
+    <div class="score" style="margin-left: 360px;">
+        Computer
+        <div class="numbers" id="compScore" style="margin-left:25px;">0</div>
+    </div>
+    <script src="rough.js"></script>
+</body>
+</html>
